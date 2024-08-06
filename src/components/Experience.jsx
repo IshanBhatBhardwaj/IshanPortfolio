@@ -43,24 +43,32 @@ const Experience = () => {
             </div>
 
             <div className="experience-images">
-              <div className="slider experience-one">
-                <img src={UF}/>
-                <div className="experience-image-slider-left"></div>
-                <div className="experience-text-left"><span><span className="h1" style={{color: getRandColor()}}><b>AI researcher</b></span> at University of Florida</span></div>
-              </div>
+              <a className="experience-image-link" href="https://github.com/IshanBhatBhardwaj?tab=stars" target="_blank" rel="noopener noreferrer">
+                <div className="slider experience-one">
+                  <img src={UF}/>
+                  <div className="experience-image-slider-left"></div>
+                  <div className="experience-text-left"><span><span className="h1" style={{color: getRandColor()}}><b>AI researcher</b></span> at University of Florida</span></div>
+                </div>
+              </a>
+              
               <div className="experience-column-md">
+              <a className="experience-image-link" href="https://github.com/IshanBhatBhardwaj?tab=stars" target="_blank" rel="noopener noreferrer">
                 <div className="slider experience-two">
                   <img src={Tymeline}/>
                   <div className="experience-image-slider-top"></div>
                   <div className="experience-image-slider-bottom"></div>
                   <div className="experience-text"><span>Frontend <span className="h1" style={{color: getRandColor()}}><b>Software Engineer</b></span> at Tymeline</span></div>
-                  </div>
+                </div>
+              </a>
+
+              <a className="experience-image-link" href="https://github.com/IshanBhatBhardwaj?tab=stars" target="_blank" rel="noopener noreferrer">
                 <div className="slider experience-three">
                   <img src={_8by8}/>
                   <div className="experience-image-slider-top"></div>
                   <div className="experience-image-slider-bottom"></div>
                   <div className="experience-text"><span>Fullstack <span className="h1" style={{color: getRandColor()}}><b>Software Engineer</b></span> voulnteer at 8by8</span></div>
                 </div>
+              </a>
               </div>
             </div>
 

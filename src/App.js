@@ -46,7 +46,7 @@ function App() {
           amount: 0.5
         }, 
         ease: "power4.inOut", 
-      }).to([".aboutMe", ".projects", ".skills", ".madeBy"], 1.0,{
+      }).to([".aboutMe", ".experience", ".projects", ".skills", ".madeBy"], 1.0,{
         opacity: 1
       }).to(".navBar", 1.0, {
         yPercent: 100

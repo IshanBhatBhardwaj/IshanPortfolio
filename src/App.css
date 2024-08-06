@@ -206,6 +206,7 @@
 
 .experience {
   margin-top: 50px;
+  opacity: 0;
 }
 
 .experience-title{
@@ -230,6 +231,7 @@
   padding: 0px 30px;
   margin-top: 50px;
   gap: 40px;
+  position: relative;
 }
 
 .experience-one, .experience-two, .experience-three {
@@ -244,6 +246,10 @@
   max-height: 205px;
 }
 
+.experience-image-link {
+  width: 100%;
+  height:100%
+}
 
 .experience-image-slider-top {
   position: absolute;
