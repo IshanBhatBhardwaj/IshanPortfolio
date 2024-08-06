@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react"
 import Tymeline from "../images/Tymeline.jpg"
+import UF from "../images/uf.jpg"
+import _8by8 from "../images/8by8.png"
 const colors = [[255, 105, 97], [255, 212, 38], [48, 219, 91], [122, 215, 255], [218, 143, 255], [255, 100, 130]]
 const getRandColor = () => {
     const randomIdx = Math.floor(Math.random() * colors.length)
@@ -24,6 +26,7 @@ const Experience = () => {
 
     return (
         <div className="experience">
+          
             <div className="experience-title">
                 <div style={{color: getRandColor()}}>M</div>
                 <div style={{color: getRandColor()}}>Y</div>
@@ -40,25 +43,27 @@ const Experience = () => {
             </div>
 
             <div className="experience-images">
-              <div className="experience-one">
-                <img src={Tymeline}></img>
-                <div className="experience-image-slider-top"></div>
-                <div className="experience-image-slider-bottom"></div>
-                <div className="experience-one-text"><p>Incoming <b style={{color: 'rgb(218, 143, 255)'}}>Frontend SWE</b> At Tymeline</p></div>
+              <div className="slider experience-one">
+                <img src={UF}/>
+                <div className="experience-image-slider-left"></div>
+                <div className="experience-text-left"><span><span className="h1" style={{color: getRandColor()}}><b>AI researcher</b></span> at University of Florida</span></div>
               </div>
-              <div className="experience-two">
-              <img src={Tymeline}></img>
-                <div className="experience-image-slider-top"></div>
-                <div className="experience-image-slider-bottom"></div>
-                <div className="experience-one-text">Incoming Frontend SWE At Tymeline</div>
-              </div>
-              <div className="experience-three">
-              <img src={Tymeline}></img>
-                <div className="experience-image-slider-top"></div>
-                <div className="experience-image-slider-bottom"></div>
-                <div className="experience-one-text">Incoming Frontend SWE At Tymeline</div>
+              <div className="experience-column-md">
+                <div className="slider experience-two">
+                  <img src={Tymeline}/>
+                  <div className="experience-image-slider-top"></div>
+                  <div className="experience-image-slider-bottom"></div>
+                  <div className="experience-text"><span>Frontend <span className="h1" style={{color: getRandColor()}}><b>Software Engineer</b></span> at Tymeline</span></div>
+                  </div>
+                <div className="slider experience-three">
+                  <img src={_8by8}/>
+                  <div className="experience-image-slider-top"></div>
+                  <div className="experience-image-slider-bottom"></div>
+                  <div className="experience-text"><span>Fullstack <span className="h1" style={{color: getRandColor()}}><b>Software Engineer</b></span> voulnteer at 8by8</span></div>
+                </div>
               </div>
             </div>
+
         </div>
     )
 }

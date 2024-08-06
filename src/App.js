@@ -33,7 +33,7 @@ function App() {
       }).to([".first", ".second", ".third"], {
         opacity: 0,
         duration: 1.0, 
-        delay: 0.3
+        delay: 1.4
       }).to(".bar", 1.0, {
         height: 0,
         stagger: {

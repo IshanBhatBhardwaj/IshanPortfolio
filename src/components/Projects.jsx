@@ -71,7 +71,6 @@ export default function Projects() {
                 <div onMouseEnter={() => handleMouseEnter(0)} onMouseLeave={() => handleMouseLeave(0)} className="projectOne">
                   <p className="project-title">CLUBFINITY</p>
                   <video className="project-video" ref={clubFinityRef} src={video} muted="muted"></video>
-                  {/* <p className="project-text">Project made by me that did something really cool and this text is supppppeeerrrrr long</p> */}
                 </div>
                 <p>Next.js | Typescript | Tailwind | MongoDB</p>
               </div>
@@ -79,7 +78,6 @@ export default function Projects() {
                 <div onMouseEnter={() => handleMouseEnter(1)} onMouseLeave={() => handleMouseLeave(1)} className="projectTwo">
                   <p className="project-title">APRICITY</p>
                   <video className="project-video" ref={apricityRef} src={apricityVideo} muted="muted"></video>
-                  {/* <p className="project-text">Project made by me that did something really cool and this text is supppppeeerrrrr long</p> */}
                 </div>
                 <p>React | CSS</p>
               </div>
@@ -90,7 +88,6 @@ export default function Projects() {
                 <div onMouseEnter={() => handleMouseEnter(3)} onMouseLeave={() => handleMouseLeave(3)} className="projectThree">
                   <p className="project-title">CHATGPT</p>
                   <video className="project-video" ref={chatGPTRef} src={chatGPTvideo} muted="muted"></video>
-                  {/* <p className="project-text">Project made by me that did something really cool and this text is supppppeeerrrrr long</p> */}
                 </div>
                 <p>React | CSS</p>
               </div>            
@@ -98,7 +95,6 @@ export default function Projects() {
                 <div onMouseEnter={() => handleMouseEnter(2)} onMouseLeave={() => handleMouseLeave(2)} className="projectFour">
                   <p className="project-title">FLIXFINDER</p>
                   <video className="project-video" ref={flixFinderRef} src={flixFinderVideo} muted="muted"></video>
-                  {/* <p className="project-text">Project made by me that did something really cool and this text is supppppeeerrrrr long</p> */}
                 </div>
                 <p>React | CSS | Flask </p>
               </div>
