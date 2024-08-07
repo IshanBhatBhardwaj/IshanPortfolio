@@ -24,6 +24,20 @@ const Experience = () => {
       }
     }, [])
 
+    useEffect(() => {
+      const linkElement = document.querySelector('.experience-image-link');
+      
+      if (linkElement) {
+        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        
+        if (isSafari) {
+          linkElement.setAttribute('target', '_self');
+        } else {
+          linkElement.setAttribute('target', '_blank');
+        }
+      }
+    }, []);
+
     return (
         <div className="experience">
           
@@ -43,7 +57,7 @@ const Experience = () => {
             </div>
 
             <div className="experience-images">
-              <a className="experience-image-link" href="https://github.com/IshanBhatBhardwaj?tab=stars" target="_blank" rel="noopener noreferrer">
+              <a className="experience-image-link" href="https://www.ufl.edu">
                 <div className="slider experience-one">
                   <img src={UF}/>
                   <div className="experience-image-slider-left"></div>
@@ -52,16 +66,16 @@ const Experience = () => {
               </a>
               
               <div className="experience-column-md">
-              <a className="experience-image-link" href="https://github.com/IshanBhatBhardwaj?tab=stars" target="_blank" rel="noopener noreferrer">
+              <a className="experience-image-link" href="https://www.tymeline.app" target="_self">
                 <div className="slider experience-two">
                   <img src={Tymeline}/>
                   <div className="experience-image-slider-top"></div>
                   <div className="experience-image-slider-bottom"></div>
-                  <div className="experience-text"><span>Frontend <span className="h1" style={{color: getRandColor()}}><b>Software Engineer</b></span> at Tymeline</span></div>
+                  <div className="experience-text"><span>Frontend <span className="h1" style={{color: getRandColor()}}><b>Software Engineer</b></span> intern at Tymeline</span></div>
                 </div>
               </a>
 
-              <a className="experience-image-link" href="https://github.com/IshanBhatBhardwaj?tab=stars" target="_blank" rel="noopener noreferrer">
+              <a className="experience-image-link" href="https://www.8by8.us">
                 <div className="slider experience-three">
                   <img src={_8by8}/>
                   <div className="experience-image-slider-top"></div>
