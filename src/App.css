@@ -444,6 +444,10 @@
   text-align: center;
 }
 
+.projectOne:hover .project-text  {
+  opacity: 1;
+}
+
 .projectTwo, .projectThree {
   height: 30vh;
   width:100%;
@@ -478,6 +482,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+  z-index: 10;
 }
 
 .project-title {

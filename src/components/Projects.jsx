@@ -71,6 +71,7 @@ export default function Projects() {
                 <div onMouseEnter={() => handleMouseEnter(0)} onMouseLeave={() => handleMouseLeave(0)} className="projectOne">
                   <p className="project-title">CLUBFINITY</p>
                   <video className="project-video" ref={clubFinityRef} src={video} muted="muted"></video>
+                  <div className="project-text">Test ThiS Text</div>
                 </div>
                 <p>Next.js | Typescript | Tailwind | MongoDB</p>
               </div>

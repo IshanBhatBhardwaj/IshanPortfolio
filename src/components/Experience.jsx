@@ -24,20 +24,6 @@ const Experience = () => {
       }
     }, [])
 
-    useEffect(() => {
-      const linkElement = document.querySelector('.experience-image-link');
-      
-      if (linkElement) {
-        const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
-        
-        if (isSafari) {
-          linkElement.setAttribute('target', '_self');
-        } else {
-          linkElement.setAttribute('target', '_blank');
-        }
-      }
-    }, []);
-
     return (
         <div className="experience">
           
