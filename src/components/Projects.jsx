@@ -71,7 +71,9 @@ export default function Projects() {
                 <div onMouseEnter={() => handleMouseEnter(0)} onMouseLeave={() => handleMouseLeave(0)} className="projectOne">
                   <p className="project-title">CLUBFINITY</p>
                   <video className="project-video" ref={clubFinityRef} src={video} muted="muted"></video>
-                  <div className="project-text">Test ThiS Text</div>
+                  <div className="project-text">
+                    <p>Creating a mobile app, ClubFinity, that allows all college clubs to communicate on a single platform</p>
+                  </div>
                 </div>
                 <p>Next.js | Typescript | Tailwind | MongoDB</p>
               </div>
@@ -79,6 +81,9 @@ export default function Projects() {
                 <div onMouseEnter={() => handleMouseEnter(1)} onMouseLeave={() => handleMouseLeave(1)} className="projectTwo">
                   <p className="project-title">APRICITY</p>
                   <video className="project-video" ref={apricityRef} src={apricityVideo} muted="muted"></video>
+                  <div className="project-text">
+                    <p>Engineered a custom slider for product browsing, a parallax system, and hamburger sidebars for a startup, Apricty</p>
+                  </div>
                 </div>
                 <p>React | CSS</p>
               </div>
@@ -89,6 +94,9 @@ export default function Projects() {
                 <div onMouseEnter={() => handleMouseEnter(3)} onMouseLeave={() => handleMouseLeave(3)} className="projectThree">
                   <p className="project-title">CHATGPT</p>
                   <video className="project-video" ref={chatGPTRef} src={chatGPTvideo} muted="muted"></video>
+                  <div className="project-text">
+                    <p>Used the OpenAI API to create an interactive chat client that is powered by ChatGPT</p>
+                  </div>
                 </div>
                 <p>React | CSS</p>
               </div>            
@@ -96,6 +104,9 @@ export default function Projects() {
                 <div onMouseEnter={() => handleMouseEnter(2)} onMouseLeave={() => handleMouseLeave(2)} className="projectFour">
                   <p className="project-title">FLIXFINDER</p>
                   <video className="project-video" ref={flixFinderRef} src={flixFinderVideo} muted="muted"></video>
+                  <div className="project-text">
+                    <p>Created an award wining website that gives movie recommendations based on input such as genre, actor, or director</p>
+                  </div>
                 </div>
                 <p>React | CSS | Flask </p>
               </div>
