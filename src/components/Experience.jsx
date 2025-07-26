@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import Tymeline from "../images/Tymeline.jpg"
-import UF from "../images/uf.jpg"
+import maxar from '../images/maxar.png'
 import _8by8 from "../images/8by8.png"
 const colors = [[255, 105, 97], [255, 212, 38], [48, 219, 91], [122, 215, 255], [218, 143, 255], [255, 100, 130]]
 const getRandColor = () => {
@@ -43,11 +43,11 @@ const Experience = () => {
             </div>
 
             <div className="experience-images">
-              <a className="experience-image-link" href="https://www.ufl.edu">
+              <a className="experience-image-link" href="https://www.maxar.com">
                 <div className="slider experience-one">
-                  <img src={UF}/>
+                  <img src={maxar}/>
                   <div className="experience-image-slider-left"></div>
-                  <div className="experience-text-left"><span><span className="h1" style={{color: getRandColor()}}><b>AI researcher</b></span> at University of Florida</span></div>
+                  <div className="experience-text"><span>Frontend <span className="h1" style={{color: getRandColor()}}><b>Software Engineer</b></span> intern at Maxar</span></div>
                 </div>
               </a>
               

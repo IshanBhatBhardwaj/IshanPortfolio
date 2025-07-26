@@ -414,12 +414,10 @@
 
 .projectTwoThreeContainer:hover{
   scale: 1.03;
-  cursor: pointer;
 }
 
 .projectOneFourContainer:hover {
   scale: 0.98;
-  cursor: pointer;
 }
 
 .projectOneFourContainer > *, .projectTwoThreeContainer > * {
