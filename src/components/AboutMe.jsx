@@ -50,7 +50,7 @@ export default function AboutMe() {
 
           </div>
           <div className="aboutMe-paragraph">
-            <p>Hi! I'm Ishan Bhardwaj, a third-year Computer Science major at UF. I’m passionate about web development and love creating fun, interactive websites. When I’m not coding, you'll find me playing the drums in my band - East Monarch. Music is my other big love, and I enjoy meeting new people through my performances.</p>
+            <p>Hi! I'm Ishan Bhardwaj, a fourth-year Computer Science major at UF. I’m passionate about web development and love creating fun, interactive websites. When I’m not coding, you'll find me playing the drums in my band - East Monarch. Music is my other big love, and I enjoy meeting new people through my performances.</p>
           </div>
         </div>
 
