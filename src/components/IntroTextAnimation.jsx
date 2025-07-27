@@ -13,7 +13,7 @@ export default function IntroTextAnimation() {
             </div>
 
             <div className="second-container">
-                <p className="second">A <b style={{color: getRandColor()}}>junior</b> at the <b style={{color: getRandColor()}}>University of Florida</b></p>
+                <p className="second">A <b style={{color: getRandColor()}}>senior</b> at the <b style={{color: getRandColor()}}>University of Florida</b></p>
             </div>
 
             <div className="third-container">
